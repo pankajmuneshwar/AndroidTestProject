@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Sun Dec 17 01:05:04 IST 2017
+1.base=C\:\\Pankaj\\uFony\\Test\\Weather\\weather\\build\\intermediates\\assets\\debug
+2.path=fonts/weather.otf
+0.baseType=DIRECTORY
+2.base=C\:\\Pankaj\\uFony\\Test\\Weather\\weather\\build\\intermediates\\assets\\debug
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Pankaj\\uFony\\Test\\Weather\\weather\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+2.baseType=DIRECTORY
+1.path=city.list.json

@@ -1,0 +1,4 @@
+#Sun Dec 17 01:05:03 IST 2017
+base.0=C\:\\Pankaj\\uFony\\Test\\Weather\\weather\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
