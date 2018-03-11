@@ -79,6 +79,8 @@ public class WeatherActivity extends AppCompatActivity implements CityAdapter.Ci
                 dayText3, dayText4, tempDay1, weatherText,
                 tempDay2, tempDay3, tempDay4, cityAndCountry;
 
+				
+	// On Createe Methode 			
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -86,6 +88,12 @@ public class WeatherActivity extends AppCompatActivity implements CityAdapter.Ci
         context = this;
         initialize();
     }
+	
+	
+	//new Funnction
+	public void Test(){
+		
+	}
 
     public void initialize(){
 
