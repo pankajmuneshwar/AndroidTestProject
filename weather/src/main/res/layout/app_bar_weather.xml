@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backgroundImg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.weather.incube.weather.activity.WeatherActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/transparent"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:minHeight="?attr/actionBarSize"
+            app:elevation="0dp"
+            app:theme="@style/ToolbarIconColor"
+            app:titleTextColor="@android:color/white" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/current_temperature_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cityAndCountry"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/current_temp" />
+
+    <TextView
+        android:id="@+id/cityAndCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/weatherText"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/state_country" />
+
+    <TextView
+        android:id="@+id/weatherText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/weather" />
+
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:background="@color/clear"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dayText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/normal_size"
+                android:textColor="@color/color_white" />
+
+            <ImageView
+                android:id="@+id/imageDay1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/tempDay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="@dimen/normal_size"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dayText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/normal_size"
+                android:textColor="@color/color_white" />
+
+            <ImageView
+                android:id="@+id/imageDay2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/tempDay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="@dimen/normal_size"
+                android:textColor="@color/color_white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dayText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/normal_size"
+                android:textColor="@color/color_white" />
+
+            <ImageView
+                android:id="@+id/imageDay3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/tempDay3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="@dimen/normal_size"
+                android:textColor="@color/color_white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dayText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/normal_size"
+                android:textColor="@color/color_white" />
+
+            <ImageView
+                android:id="@+id/imageDay4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/tempDay4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="@dimen/normal_size"
+                android:textColor="@color/color_white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+
+    <!--Material Colors 600 -->
+    <color name="clear">#1E88E5</color>
+    <color name="cloud">#E65100</color>
+    <color name="rain">#43A047</color>
+    <color name="snow">#0097A7</color>
+    <color name="thunder">#3949AB</color>
+    <color name="drizzle">#D81B60</color>
+
+</resources>
