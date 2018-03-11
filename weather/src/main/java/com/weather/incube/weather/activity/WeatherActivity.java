@@ -86,6 +86,11 @@ public class WeatherActivity extends AppCompatActivity implements CityAdapter.Ci
         context = this;
         initialize();
     }
+	
+	// Test @ Method 
+	public void test2(){
+	
+	}
 
     public void initialize(){
 
